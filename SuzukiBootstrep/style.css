@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    color: #007bff;
+    text-align: center;
+    margin: 20px 0;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.navbar-nav .nav-link {
+    color: #0056b3;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #003f7f;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-outline-success {
+    border-radius: 5px;
+}
+
+/* Carousel Styles */
+.carousel-inner img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Card Styles */
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin: 50px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 250px;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    section {
+        padding: 10px;
+    }
+}

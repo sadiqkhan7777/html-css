@@ -5,3 +5,8 @@ h1 {
 text {
   color: #444030;
 }
+
+.images {
+  flex: 1;
+  flex-wrap: wrap;
+}

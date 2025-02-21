@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #121236, #1c1c60);
+    font-family: Arial, sans-serif;
+}
+
+.venn-container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.circle {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.html {
+    border: 4px solid orange;
+    top: 10px;
+    left: 110px;
+}
+
+.css {
+    border: 4px solid blue;
+    top: 100px;
+    left: 30px;
+}
+
+.js {
+    border: 4px solid yellow;
+    top: 100px;
+    left: 190px;
+}
+
+.circle img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
